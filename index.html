@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Krisha - Computer Engineering Student | Web Developer & Designer">
+    <meta name="keywords" content="Krisha, Portfolio, Web Developer, Designer, Computer Engineering">
+    <meta name="author" content="Krisha">
+    <title>Krisha | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Krisha</span>
+                <span class="logo-dot">.</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2 class="greeting">Hello, I'm</h2>
+                <h1 class="name">Krisha</h1>
+                <p class="tagline">Computer Engineering Student & Creative Designer</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <span>View Work</span>
+                        <i class="fas fa-briefcase"></i>
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <div class="image-glow"></div>
+                    <img src="profile.jpg" alt="Krisha" id="profileImage">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-image-wrapper">
+                        <img src="about.jpg" alt="About Krisha" id="aboutImage">
+                        <div class="about-overlay"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Hi, I'm Krisha!</h3>
+                    <p class="about-description">
+                        I'm currently pursuing my <strong>B.Tech in Computer Engineering</strong>, 
+                        now in my <strong>4th semester</strong>. I'm passionate about creating beautiful, 
+                        functional web experiences that make a difference.
+                    </p>
+                    <p class="about-description">
+                        With a strong foundation in web development and design, I love bringing ideas 
+                        to life through code. I believe in continuous learning and staying updated with 
+                        the latest technologies to create innovative solutions.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Education</h4>
+                                <p>B.Tech in Computer Engineering</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-book-open"></i>
+                            <div>
+                                <h4>Current Semester</h4>
+                                <p>4th Semester</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Focus</h4>
+                                <p>Web Development & Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Skills</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="90"></div>
+                    </div>
+                    <p class="skill-percentage">90%</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="85"></div>
+                    </div>
+                    <p class="skill-percentage">85%</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="80"></div>
+                    </div>
+                    <p class="skill-percentage">80%</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Designing</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="88"></div>
+                    </div>
+                    <p class="skill-percentage">88%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project1.jpg" alt="Project 1" id="project1Image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Responsive Website</h3>
+                        <p>A modern, fully responsive website built with HTML, CSS, and JavaScript</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project2.jpg" alt="Project 2" id="project2Image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Creative Design</h3>
+                        <p>Beautiful UI/UX design with smooth animations and modern aesthetics</p>
+                        <div class="project-tags">
+                            <span class="tag">Design</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Animation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project3.jpg" alt="Project 3" id="project3Image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Interactive Dashboard</h3>
+                        <p>Dynamic dashboard with interactive elements and data visualization</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Let's work together!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>krisha@example.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 XXXXX XXXXX</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject" required>
+                        <i class="fas fa-tag"></i>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">Krisha</span>
+                    <span class="logo-dot">.</span>
+                </div>
+                <p class="footer-text">Crafting beautiful digital experiences with passion and creativity.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <p class="copyright">&copy; 2026 Krisha. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
